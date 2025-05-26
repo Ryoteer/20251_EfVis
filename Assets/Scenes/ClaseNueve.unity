@@ -298,6 +298,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6170659795631521440, guid: d732cbba8af02ec40b355a8cad0e574c, type: 3}
+      propertyPath: far clip plane
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170659795631521440, guid: d732cbba8af02ec40b355a8cad0e574c, type: 3}
+      propertyPath: near clip plane
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170659795631521440, guid: d732cbba8af02ec40b355a8cad0e574c, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 3858759743
       objectReference: {fileID: 0}
@@ -609,7 +617,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91f6a9d8d744bd84c8f37769b709ecc6, type: 2}
+  - {fileID: 2100000, guid: 4a052e76212120047ba7db0597ce54ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -649,8 +657,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1, z: 5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.5, y: 0.5, z: 2.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -665,7 +673,7 @@ PrefabInstance:
     - target: {fileID: 3012367510698306971, guid: 80a2dabc6cf37f04a89162a89b6698e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5e0bc865e9a8fa645b31b3d3d385b2d4, type: 2}
+      objectReference: {fileID: 2100000, guid: ebe483c7af6cd3a43b76b526c11c243e, type: 2}
     - target: {fileID: 5154743893378810271, guid: 80a2dabc6cf37f04a89162a89b6698e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -709,7 +717,7 @@ PrefabInstance:
     - target: {fileID: 5389862048651601738, guid: 80a2dabc6cf37f04a89162a89b6698e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 070f496dfb031d649bcc165f77ba43d0, type: 2}
+      objectReference: {fileID: 2100000, guid: 416fb200b2a54814794e17406a170302, type: 2}
     - target: {fileID: 7935621705294624109, guid: 80a2dabc6cf37f04a89162a89b6698e9, type: 3}
       propertyPath: m_Name
       value: Character
